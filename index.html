@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+        <title>My Profile</title>
+	    <meta charset="utf-8">
+	    <!-- setting viwport & initial scaling -->
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	    <!-- Bootstrap CDN & dependencies -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="      				 anonymous">
+	    </script>
+	    <!-- external custom js -->
+		<script type="text/javascript" src="indexScripts.js"></script>
+
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    
+	  
+	    <!-- google fonts -->
+	    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Headland+One" rel="stylesheet">
+
+		<!-- external custom css file -->
+		<link rel = "stylesheet" type = "text/css" href = "custom.css" />
+		<!-- font awesome cdn -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    
+	</head>
+
+
+	<body>
+
+		<!-- top navigation bar -->
+		<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		      <a class="navbar-brand" href="#"><b><u>Hi There, Welcome to My Profile</u></b></a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#"><b>My Profile</b></a></li>
+		        <li><a href="feeds.html"><b>My Feed</b></a></li><!-- feeds.html -->
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+
+		<!-- the jumbotron -->
+		<div class="container topIndex">
+			<div class="jumbotron">
+				<div class="row">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<h1><i>It's all about me...</i></h1>
+						<a id="aboutMeLink" href="#aboutMe" style="display:none;">abt</a>
+
+					</div>
+					<div class="col-xs-3 col-sm-3 col-md-5 col-lg-5"></div>
+					<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+						<h1><i>It's my profile</i></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+
+					<div class="panel panel-default">
+					  <div class="panel-heading"><h4>What is Facebook access token?</h4></div>
+					  <div class="panel-body">
+					  	<medium>An access token is an opaque string that identifies a user, app, or Page and can be used by the app to make graph API calls. Access tokens are obtained via a number of methods, each of which are covered later in this document. The token includes information about when the token will expire and which app generated the token. Because of privacy checks, the majority of API calls on Facebook need to include an access token. There are different types of access tokens to support different use cases</medium>
+					  </div>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-6 text-center">
+
+					<div class="container-fluid">
+
+						<form>
+							<div class="form-group">
+							    <label for="fbAccessToken">Enter Your Facebook Access Token:</label>
+							    <input type="text" class="form-control" id="fbInputToken" aria-describedby="fbAccessToken" placeholder="Enter Access Token" style="margin-top:3%;">
+							</div>
+							<div style="margin-top:8%;">
+								<button type="button" class="btn btn-primary pull-left tokenSubmitButton">Submit</button>
+								<input class="btn btn-primary pull-left" type="reset" value="Reset" style="margin-left:10%;">
+							</div>
+						</form>
+
+					</div>
+
+					<div class="container-fluid" style="margin-top:15%;">
+
+						<p class="pull-left"><a href="https://developers.facebook.com/" target="blank"><medium><u>Click here to navigate to facebook developers website</u>	</medium></a>
+						</p>
+
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+
+					<div class="panel panel-default">
+					  <div class="panel-heading"><h4>Cool sites you might be interested in!</h4></div>
+					  	<div class="panel-body">
+					 		<div class="container-fluid">
+								<div class="row">
+									<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+										<a href="https://twitter.com/" target="blank"> <img src="images\twitterLogo1.png" class="img-responsive" alt="Twitter" style="border-radius:30%;width:50px;"/> </a>
+									</div>
+									<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+										<a href="https://www.facebook.com/" target="blank"><img src="images\fbLogo2.png" class="img-responsive" alt="Facebook" style="border-radius:30%;width:50px;"/></a>
+									</div>
+								</div>	
+							</div>
+
+							<div class="container-fluid" style="padding-top:10%;">
+								<div class="row">
+									<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+										<a href="https://timesofindia.indiatimes.com/" target="blank"><img src="images\toiLogo1.png" class="img-responsive" alt="TOI" style="border-radius:10%;width:50px;height:40px;"/></a>
+									</div>
+									<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+										<a href="https://edwisor.com/" target="blank"><img src="images\edwisorLogo1.png" class="img-responsive" alt="Edwisor" style="border-radius:10%;width:50px;height:40px;"/></a>
+									</div>
+								</div>
+							</div>
+
+							<div class="container-fluid" style="padding-top:10%;">
+							 	<div class="row">
+									<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+										<a href="https://www.irctc.co.in/eticketing/loginHome.jsf" target="blank"><img src="images\irctcLogo.png" class="img-responsive" alt="TOI" style="border-radius:10%;width:50px;height:55px;"/></a>
+									</div>
+									<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+										<a href="http://www.goal.com" target="blank"><img src="images\goalLogo.png" class="img-responsive" alt="Edwisor" style="border-radius:10%;width:50px;height:55px;"/></a>
+									</div>
+								</div>
+					  	 	</div>
+
+					    </div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		
+		<div class="container" style="padding-top:3px;">
+			
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+					
+					<div class="panel panel-default" id="aboutMe">
+						<div class="panel-heading"><h4>About Me</h4></div>
+						<div class="panel-body">
+						  	<label>Name:&nbsp;&nbsp;</label><label class="indexLabel" id="userName"></label><label class="noData">No Data</label><br/>
+						  	<label>City:&nbsp;&nbsp;</label><label class="indexLabel"  id="userCity"></label><label class="noData">No Data</label><br/>
+						  	<label>E Mail:&nbsp;&nbsp;</label><label class="indexLabel" id="userEmail"></label><label class="noData">No Data</label><br/>
+						  	<label>D.O.B:&nbsp;&nbsp;</label><label class="indexLabel" id="userDob"></label><label class="noData">No Data</label><br/>
+						  	<label>Gender:&nbsp;&nbsp;</label><label class="indexLabel" id="userGender"></label><label class="noData">No Data</label><br/>
+						  	<label>Interested In:&nbsp;&nbsp;</label><label class="indexLabel" id="userInterestedIn"></label><label class="noData">No Data</label><br/>
+						</div>
+					</div>
+					
+
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+					<div class="panel panel-default">
+					  <div class="panel-heading"><h4>My Education</h4></div>
+					    <div class="panel-body">
+						  	<h5><b>My High School details:</b></h5>
+						  	<label class="indexLabel">Institute Name:&nbsp;&nbsp;</label><label class="indexLabel" id="userSchoolInstitute"></label><label class="noData">No Data</label><br/>
+						  	
+							<h5><b>My College details:</b></h5>
+						  	<label class="indexLabel">Institute Name:&nbsp;&nbsp;</label><label class="indexLabel" id="userCollegeInstitute"></label><label class="noData">No Data</label><br/>
+						  	<label class="indexLabel">Specialization:&nbsp;&nbsp;</label><label class="indexLabel" id="userSpecialization"><label class="noData">No Data</label></label>
+						</div>
+					</div>
+
+				</div>	
+
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+
+					<div class="panel panel-default">
+					  <div class="panel-heading"><h4>My Movies</h4></div>
+					  <div class="panel-body"><medium><b>Here are some of the movies you watched :</b></medium></div>
+					  
+					    <div class="container-fluid">
+							<div class="row">
+								<div class="col-md-1"></div>
+								<div class="col-md-11"><i class="fa fa-file-video-o" aria-hidden="true"></i>&nbsp;<label class="indexLabel" id="movOne"></label><label class="noData">No Data</label></div>
+							</div>
+						  	<div class="row">
+						  		<div class="col-md-1"></div>
+								<div class="col-md-11"><i class="fa fa-file-video-o" aria-hidden="true"></i>&nbsp;<label class="indexLabel" id="movTwo""></label><label class="noData">No Data</label></div>
+							</div>
+						  	<div class="row">
+						  		<div class="col-md-1"></div>
+								<div class="col-md-11"><i class="fa fa-file-video-o" aria-hidden="true"></i>&nbsp;<label class="indexLabel" id="movThree"></label><label class="noData">No Data</label></div>
+							</div>
+						  	<div class="row">
+						  		<div class="col-md-1"></div>
+								<div class="col-md-11"><i class="fa fa-file-video-o" aria-hidden="true"></i>&nbsp;<label class="indexLabel" id="movFour"></label><label class="noData">No Data</label></div>
+							</div>
+					    </div>
+					</div>
+
+				</div>
+
+			</div>	
+
+		</div>
+
+
+		
+
+		<!-- bottom navigation bar -->
+		<nav class="navbar navbar-default navbar-bottom">
+		    <div class="container-fluid">
+			    <div class="navbar-header">
+			      <p class="navbar-brand">&copy; Surya @ Ed - 2017</p>
+			    </div>
+		    </div>
+		</nav>
+
+
+
+		<!-- AJAX error modal begins -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		    	<div class="modal-content">
+		        	<div class="modal-header" style="background-color:#c9302c;">
+			          <h4 class="modal-title">Oops! Something went wrong <i class="fa fa-frown-o" aria-hidden="true"></i></h4>
+			        </div>
+			        <div id="errorModalBody" class="modal-body" style="overflow-x: hidden;">
+			        	
+			        </div>
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+			        </div>
+		        </div>
+		    </div>
+		</div>
+		<!--AJAX error modal ends -->
+
+		<!-- empty token string error modal begins -->
+		<div class="modal fade" id="emptyValErrorModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		    	<div class="modal-content">
+		        	<div class="modal-header" style="background-color:#c9302c;">
+			          <h4 class="modal-title">Oops! Something went wrong <i class="fa fa-frown-o" aria-hidden="true"></i></h4>
+			        </div>
+			        <div class="modal-body">
+			        	Access token cannot be empty..
+			        </div>
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+			        </div>
+		        </div>
+		    </div>
+		</div>
+		<!-- empty token string error modal ends -->
+
+		
+	</body>
+
+</html>

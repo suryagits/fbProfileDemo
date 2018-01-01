@@ -1,0 +1,108 @@
+.html,.body{ height:100%; }
+			
+.loaderCss{
+	opacity:0.1;
+	background: url('images\\loader10.gif') no-repeat fixed 
+				center;
+	
+	/*-webkit-transition: background-color 1s ease-out;
+	-moz-transition: background-color 1s ease-out;
+	-o-transition: background-color 1s ease-out;
+	transition: background-color 1s ease-out;*/
+
+	-webkit-transition: opacity 0.001ms linear;
+    -moz-transition: opacity 0.001ms linear;
+    -o-transition: opacity 0.001ms linear;
+    transition: opacity 0.001ms linear;
+}
+
+.navbar-custom {
+	background-color: #33689c;/*#6DBDD6;#2098e8;*/
+	color:#ffffff;
+	border-radius:0;
+}
+
+.navbar-brand,.navbar-custom .navbar-nav > li > a{
+	font-family: 'Cedarville Cursive', cursive;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    color: #33aa33;
+}
+
+.navbar-custom .navbar-brand {
+    color:#ffffff;
+}
+.navbar-custom .navbar-toggle {
+    background-color:#eeeeee;
+}
+.navbar-toggle > .icon-bar{
+	background-color:red;
+}
+			
+.jumbotron{
+	background:url("images\\bg-6.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+
+.navbar-bottom{ 
+	position:relative;
+	background-color:#33689c; 
+	color:#ffffff;
+    margin-bottom:0px;
+
+} 
+.navbar-bottom .navbar-brand {
+	color:#ffffff;
+}
+
+.panel-heading{
+	background-color:/*#C1E1A6*/ #d1d7d5 !important;
+	color:#7D1935;
+	font-family: 'Headland One', serif;
+}
+
+.panel-body{
+	color:#16491f;
+}
+.indexLabel{
+	font-weight:10;
+}
+.noData{
+	font-weight:5;
+
+}
+.topIndex{
+
+	margin-top:9%
+}
+
+.topFeed{
+	margin-top:7%;
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+    .topFeed{
+		margin-top:15%;
+    }
+    .topIndex{
+    	margin-top:20%;
+    }
+    
+}
