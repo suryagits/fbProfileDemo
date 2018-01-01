@@ -1,15 +1,11 @@
 //console.log( localStorage.getItem("accessToken"));
 $(document).ready(function() {
+	
+	$('.accordionTitle').click(function(){
+	$("#videoId").get(0).pause();
 
-	 $("#videoPanel").click(function(){
-		var isExpanded = $('#collapse1').attr("aria-expanded");	 
-			if(isExpanded){
-				$("#videoId").get(0).pause();
-			}
-			else{
-				$("#videoId").get(0).play();
-			}
 	});
+	 
 	 
 	var accessTokenFeed=localStorage.getItem("accessToken")
 	$.ajax({
