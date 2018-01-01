@@ -1,5 +1,5 @@
 # fbProfileDemo
-A snmall application that makes use of facebook API to fetch relevant user data.
+A small application that makes use of facebook API to fetch relevant user data.
 
 ## Getting Started
 Install GIT bash or any other GIT client that helps type bash commands.
